@@ -18,6 +18,7 @@ public class YouTubePage {
 
     /**
      * inserts search text in search string
+     *
      * @param text text for input
      */
     public void insertSearchString(String text) {
@@ -26,9 +27,10 @@ public class YouTubePage {
 
     /**
      * perform search
+     *
      * @return results page instance
      */
-    public YouTubeSearchResultsPage doSearch(){
+    public YouTubeSearchResultsPage doSearch() {
         searchButtonElement.click();
         return page(YouTubeSearchResultsPage.class);
     }
@@ -36,15 +38,16 @@ public class YouTubePage {
     /**
      * clears search string
      */
-    private void clearSearchString(){
+    private void clearSearchString() {
         searchStringElement.clear();
     }
 
     /**
      * getting search string text
+     *
      * @return text from search string
      */
-    public String getSearchStringText(){
+    public String getSearchStringText() {
         return searchStringElement.val();
     }
 

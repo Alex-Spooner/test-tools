@@ -1,4 +1,4 @@
-package ru.testing.notes.cucumber.tests.listeners;
+package ru.testing.notes.cucumber.test.listeners;
 
 import org.testng.ITestContext;
 import org.testng.ITestListener;

@@ -1,4 +1,4 @@
-package ru.testing.notes.cucumber.tests.runners;
+package ru.testing.notes.cucumber.test.runners;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;

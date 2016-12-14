@@ -1,4 +1,4 @@
-package ru.testing.notes.cucumber.tests.steps;
+package ru.testing.notes.cucumber.test.steps;
 
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;

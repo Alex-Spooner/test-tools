@@ -1,8 +1,8 @@
-package ru.testing.notes.cucumber.tests.tests;
+package ru.testing.notes.cucumber.test.tests;
 
 
 import org.testng.annotations.Listeners;
-import ru.testing.notes.cucumber.tests.listeners.ScreenShotOnFailListener;
+import ru.testing.notes.cucumber.test.listeners.ScreenShotOnFailListener;
 
 /**
  * Created by Sidelnikov Mikhail on 30.07.15.
