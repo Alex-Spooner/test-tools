@@ -5,7 +5,6 @@ import org.testng.annotations.Listeners;
 import ru.testing.notes.cucumber.test.listeners.ScreenShotOnFailListener;
 
 /**
- * Created by Sidelnikov Mikhail on 30.07.15.
  * Uses TestNG test framework
  * Test demonstrates work with Selenide and Page Object Pattern(https://code.google.com/p/selenium/wiki/PageObjects)
  * For more information about Selenide visit <a href="http://selenide.org">Selenide</a>
